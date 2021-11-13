@@ -51,21 +51,21 @@ nav:
   - Overview: index.md
   - Getting Started:
       - Installation:
-          - Linux: documentation/getting-started/installation/linux.md
-          - MacOS: documentation/getting-started/installation/macos.md
-          - Windows: documentation/getting-started/installation/windows.md
-      - Hello World: documentation/getting-started/hello-world.md
-      - Directory Structure: documentation/getting-started/directory-structure.md
-  - Architecture: documentation/architecture.md
+          - Linux: getting-started/installation/linux.md
+          - MacOS: getting-started/installation/macos.md
+          - Windows: getting-started/installation/windows.md
+      - Hello World: getting-started/hello-world.md
+      - Directory Structure: getting-started/directory-structure.md
+  - Architecture: architecture.md
   - Basics:
-      - Request: documentation/basics/request.md
-      - Response: documentation/basics/response.md
-      - Routing: documentation/basics/routing.md
-      - Middleware: documentation/basics/middleware.md
-      - Validation: documentation/basics/validation.md
-      - Error Handling: documentation/basics/error-handling.md
-      - Logging: documentation/basics/logging.md
-      - Testing: documentation/basics/testing.md
+      - Request: basics/request.md
+      - Response: basics/response.md
+      - Routing: basics/routing.md
+      - Middleware: basics/middleware.md
+      - Validation: basics/validation.md
+      - Error Handling: basics/error-handling.md
+      - Logging: basics/logging.md
+      - Testing: basics/testing.md
   - Components:
       - Overview: components/overview.md
       - Console:
