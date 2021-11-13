@@ -1,0 +1,105 @@
+site_name: Chaqmoq Docs
+copyright: Copyright &copy; 2020 - 2021 Chaqmoq
+repo_name: chaqmoq/chaqmoq
+repo_url: https://github.com/chaqmoq/chaqmoq
+edit_uri: ""
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: purple
+      toggle:
+        icon: material/eye
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: purple
+      toggle:
+        icon: material/eye-outline
+        name: Switch to dark mode
+  features:
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    # - navigation.tracking
+    # - navigation.top
+    - search.share
+    - search.suggest
+    - toc.integrate
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      name: Chaqmoq on Github
+      link: https://github.com/chaqmoq
+    - icon: fontawesome/brands/twitter
+      name: Chaqmoq on Twitter
+      link: https://twitter.com/chaqmoqdev
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+nav:
+  - Overview: index.md
+  - Getting Started:
+      - Installation:
+          - Linux: documentation/getting-started/installation/linux.md
+          - MacOS: documentation/getting-started/installation/macos.md
+          - Windows: documentation/getting-started/installation/windows.md
+      - Hello World: documentation/getting-started/hello-world.md
+      - Directory Structure: documentation/getting-started/directory-structure.md
+  - Architecture: documentation/architecture.md
+  - Basics:
+      - Request: documentation/basics/request.md
+      - Response: documentation/basics/response.md
+      - Routing: documentation/basics/routing.md
+      - Middleware: documentation/basics/middleware.md
+      - Validation: documentation/basics/validation.md
+      - Error Handling: documentation/basics/error-handling.md
+      - Logging: documentation/basics/logging.md
+      - Testing: documentation/basics/testing.md
+  - Components:
+      - Overview: components/overview.md
+      - Console:
+          - Installation: components/console/installation.md
+          - Usage: components/console/usage.md
+      - DotEnv:
+          - Overview: components/dotenv/overview.md
+          - Installation: components/dotenv/installation.md
+          - Usage: components/dotenv/usage.md
+          - Reference: https://chaqmoq.dev/dotenv
+      - HTTP:
+          - Installation: components/http/installation.md
+          - Usage:
+              - Server: components/http/usage/server.md
+          - Reference: https://chaqmoq.dev/http
+      - MIME:
+          - Overview: components/mime/overview.md
+          - Installation: components/mime/installation.md
+          - Usage: components/mime/usage.md
+          - Reference: https://chaqmoq.dev/mime
+      - Resolver:
+          - Installation: components/resolver/installation.md
+          - Usage: components/resolver/usage.md
+          - Reference: https://chaqmoq.dev/resolver
+      - Routing:
+          - Installation: components/routing/installation.md
+          - Usage: components/routing/usage.md
+          - Reference: https://chaqmoq.dev/routing
+      - Templating:
+          - Installation: components/templating/installation.md
+          - Usage: components/templating/usage.md
+          - Reference: https://chaqmoq.dev/templating
+      - Validation:
+          - Overview: components/validation/overview.md
+          - Installation: components/validation/installation.md
+          - Usage: components/validation/usage.md
+          - Reference: https://chaqmoq.dev/validation
