@@ -45,6 +45,7 @@ See the full list of all supported `MIME` types with their file extensions [here
 - `audio/x-flac`
 - `audio/x-wav`
 - `image/bmp`
+- `image/heic`
 - `image/flif`
 - `image/gif`
 - `image/jpeg`
